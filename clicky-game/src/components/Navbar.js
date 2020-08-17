@@ -1,26 +1,15 @@
 import React from "react";
+import "../styles/Navbar.css";
 
-const styles = {
-  card: {
-    margin: 20,
-    background: "#e8eaf6"
-  },
-  heading: {
-    background: "#9a74db",
-    minHeight: 50,
-    lineHeight: 3.5,
-    fontSize: "1.2rem",
-    color: "white",
-    padding: "0 20px"
-  }
-};
 
-function Navbar() {
-  return (
-    <div style={styles.card}>
-      <div style={styles.heading}>Home</div>
+const Navbar = props => (
+  <div className="navbar ">
+    <div>Clicky Game</div>
+    <div className={props.navMsgColor}>{props.navMessage}</div>
+    <div>
+      Score: {props.score} <span className="pipe">|</span> High Score: {props.highScore}
     </div>
-  );
-}
+  </div>
+);
 
 export default Navbar;

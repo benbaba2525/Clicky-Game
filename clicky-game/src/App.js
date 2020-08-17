@@ -1,16 +1,20 @@
 import React from "react";
 import Navbar from "./components/Navbar";
-import Header from "./components/Header";
-import Card from "./components/Card";
+import Banner from "./components/Banner";
+import Footer from "./components/Footer";
+
 
 function App() {
   return (
-    <div>
-      <Header />
-      <Navbar />
-      <Card />
-      <Card />
-      <Card />
+    <div className="fluid-container lodge h-100vh">
+       <Navbar />
+
+      
+      <Banner />
+
+      
+
+      <Footer />
     </div>
   );
 }
