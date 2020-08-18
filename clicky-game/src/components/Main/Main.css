@@ -1,4 +1,6 @@
 .container {
+    margin-top: 40px;
+    margin-bottom: 70px;
     display: flex;
     flex-wrap: wrap;
     padding-bottom: 15px;
@@ -6,31 +8,11 @@
     position: relative;
 }
 
-.gif img, .btn-link {
-  position: absolute;
-}
+
 
 .btn-link {
   top: 50%;
   left: 5%;
-}
-
-.volume-icon {
-  height: 100px;
-
-  color: #5bc0de;
-}
-
-#louise-gif {
-  max-height: 300px;
-  top: 89.5%;
-  right: 0;
-}
-
-#linda-gif {
-  max-width: 200px;
-  top: 72%;
-  left: 0;
 }
 
 .incorrect {
