@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/Banner.css';
+import './Banner.css';
 
 const Banner = () => (
     <div className="banner text-center d-flex align-items-center justify-content-center">    

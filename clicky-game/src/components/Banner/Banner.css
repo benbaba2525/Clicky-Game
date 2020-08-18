@@ -1,5 +1,5 @@
 .banner {
-    background-image: url('../images/maxresdefault.jpg') !important;
+    background-image: url('../../assets/img/maxresdefault.jpg') !important;
     background-size: cover;
     height: 370px;
     margin: 0 !important;
