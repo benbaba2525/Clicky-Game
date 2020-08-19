@@ -9,7 +9,8 @@ const Alerts = props => (
     
     
         <h3>
-            <strong>{props.message1}</strong> {props.message2}
+        <div className={props.message1}>{props.message2}</div>
+            
         </h3>
 
   </div>

@@ -20,8 +20,13 @@
 }
 
 
+.incorrect{
+  color: red;
+}
 
-
+.correctly{
+  color: rgb(10, 240, 10);
+}
 
 
 

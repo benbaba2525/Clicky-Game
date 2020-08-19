@@ -21,8 +21,8 @@ class App extends Component{
           soundPosition: 0,
           soundStatus: Sound.status.PLAYING,
           shake: "",
-          message1: "Select an image to begin!",
-          message2: "",
+          message1: "",
+          message2: "Select an image to begin!",
           alertType: "info",
           topScoreType: "info",
           volume: "on"
@@ -50,8 +50,8 @@ class App extends Component{
                       score: 0,
                       selected: [],
                       topScore: newScore,
-                      message1: "You Win!!!",
-                      message2: "",
+                      message1: "correctly",
+                      message2: "You Win!!!",
                       alertType: "success"
                   });
                   if(this.state.volume === "on"){
@@ -65,8 +65,8 @@ class App extends Component{
               else if(newScore > this.state.topScore){
                   this.setState({
                       topScore: newScore, 
-                      message1: "YES!!",
-                      message2: "You guessed correctly!",
+                      message1: "correctly",
+                      message2: "YES!! You guessed correctly!",
                       alertType: "success",
                       topScoreType: "success"
                   });
@@ -80,8 +80,8 @@ class App extends Component{
               }
               else{
                   this.setState({
-                      message1: "YAS!",
-                      message2: "You guessed correctly!",
+                      message1: "correctly",
+                      message2: "YES!! You guessed correctly!",
                       alertType: "success",
                       topScoreType: "info"
                   });
@@ -99,8 +99,8 @@ class App extends Component{
                   score: 0,
                   selected: [], 
                   shake: "incorrect",
-                  message1: "WRONG!",
-                  message2: "Start over and try again!",
+                  message1: "incorrect",
+                  message2: "WRONG!! Start over and try again!",
                   alertType: "danger",
                   topScoreType: "info"
               });
