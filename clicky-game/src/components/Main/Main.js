@@ -4,10 +4,10 @@ import "./Main.css";
 // PROPS: Main
 const Main = props => (
     <main className={`${props.shake}`}>
-        
-        <div className="container">
-            {props.children}
-        </div>
+        <p className = "flicker-1 header-font"><strong>Click on an image to earn points, But don't click on any more than once!!</strong></p>
+        <div className="container-fulid">
+       {props.children}
+     </div>
         
     </main>
 )

@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
 import Sound from 'react-sound';
 import Alerts from "./Alerts";
-import Banner from "./Banner";
 import Score from "./Score";
 import Main from "./Main";
 import Card from "./Card";
 import Footer from "./Footer";
 import cards from "../assets/json/cards.json";
-import soundCorrect from '../assets/sounds/alright.mp3';
-import soundIncorrect from '../assets/sounds/omg.mp3';
+import soundCorrect from '../assets/sounds/correct sound effect.mp3';
+import soundIncorrect from '../assets/sounds/You Lose - Sound Effect - 2017.mp3';
+import soundWin from '../assets/sounds/WIN sound effect no copyright.mp3';
+
 // CLASS: App
 class App extends Component{
   // STATE    
@@ -49,7 +50,7 @@ class App extends Component{
                       score: 0,
                       selected: [],
                       topScore: newScore,
-                      message1: "You win!",
+                      message1: "You Win!!!",
                       message2: "",
                       alertType: "success"
                   });
@@ -57,7 +58,7 @@ class App extends Component{
                       this.setState({ 
                           soundStatus: Sound.status.PLAYING,
                           soundPosition: 0,
-                          soundURL: soundCorrect
+                          soundURL: soundWin
                       });
                   }
               }
@@ -124,7 +125,7 @@ render() {
                     message2={this.state.message2}
                     alertType={this.state.alertType}
         />
-       <Banner />
+
        <Score 
                     shake={this.state.shake}
                     score={this.state.score} 
@@ -132,6 +133,7 @@ render() {
                     alertType={this.state.alertType}
                     topScoreType={this.state.topScoreType}
         />
+
        <Main 
                     shake={this.state.shake}
                     
@@ -153,7 +155,6 @@ render() {
                     playPosition={this.state.soundPosition}
         />
 
-      
 
       <Footer />
     </div>
