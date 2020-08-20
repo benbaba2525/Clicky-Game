@@ -3,7 +3,7 @@
       "id": 1,
       "count": 0,
       "name": "Ant Man",
-      "image": "./images/blk-widow.jpg"
+      "image": "./images/antman.jpg"
     },
   
     {
@@ -70,6 +70,6 @@
       "id": 12,
       "count": 0,
       "name": "War Machine",
-      "image": "./images/war.machine.jpg"
+      "image": "./images/war-machine.jpg"
     }
   ] 
