@@ -2,38 +2,38 @@
     {
       "id": 1,
       "count": 0,
-          "name": "Ant Man",
-      "image": "./images/ant-man.jpg"
+      "name": "Ant Man",
+      "image": "./images/blk-widow.jpg"
     },
   
     {
       "id": 2,
       "count": 0,
-          "name": "Black Widow",
+      "name": "Black Widow",
       "image": "./images/blk-widow.jpg"
     },
     {
       "id": 3,
       "count": 0,
-          "name": "Captain Marvel",
+      "name": "Captain Marvel",
       "image": "./images/captain-marvel.jpg"
     },
     {
       "id": 4,
       "count": 0,
-          "name": "Captain America",
+      "name": "Captain America",
       "image": "./images/captam-america.jpg"
     },
     {
       "id": 5,
       "count": 0,
-          "name": "Hawkeye",
+      "name": "Hawkeye",
       "image": "./images/hawkeye.jpg"
     },
     {
       "id": 6,
       "count": 0,
-          "name": "Hulk",
+      "name": "Hulk",
       "image": "./images/hulk.jpg"
     },
     {
@@ -45,31 +45,31 @@
     {
       "id": 8,
       "count": 0,
-          "name": "Nebula",
+      "name": "Nebula",
       "image": "./images/nebula.jpg"
     },
     {
       "id": 9,
       "count": 0,
-          "name": "Pepper Potts",
+      "name": "Pepper Potts",
       "image": "./images/pepper-potts.jpg"
     },
     {
       "id": 10,
       "count": 0,
-          "name": "Rocket",
+      "name": "Rocket",
       "image": "./images/rocket.jpg"
     },
     {
       "id": 11,
       "count": 0,
-          "name": "Thor",
+      "name": "Thor",
       "image": "./images/thor.jpg"
     },
     {
       "id": 12,
       "count": 0,
-          "name": "War Machine",
-      "image": "./images/war-machine.jpg"
+      "name": "War Machine",
+      "image": "./images/war.machine.jpg"
     }
   ] 
