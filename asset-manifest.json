@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Clicky-Game/static/css/main.5f4b3aa4.chunk.css",
+    "main.js": "/Clicky-Game/static/js/main.131024a3.chunk.js",
+    "main.js.map": "/Clicky-Game/static/js/main.131024a3.chunk.js.map",
+    "runtime-main.js": "/Clicky-Game/static/js/runtime-main.a0ce3ec2.js",
+    "runtime-main.js.map": "/Clicky-Game/static/js/runtime-main.a0ce3ec2.js.map",
+    "static/js/2.937769ed.chunk.js": "/Clicky-Game/static/js/2.937769ed.chunk.js",
+    "static/js/2.937769ed.chunk.js.map": "/Clicky-Game/static/js/2.937769ed.chunk.js.map",
+    "index.html": "/Clicky-Game/index.html",
+    "precache-manifest.0764b85ef331716e671678a525e9ebc0.js": "/Clicky-Game/precache-manifest.0764b85ef331716e671678a525e9ebc0.js",
+    "service-worker.js": "/Clicky-Game/service-worker.js",
+    "static/css/main.5f4b3aa4.chunk.css.map": "/Clicky-Game/static/css/main.5f4b3aa4.chunk.css.map",
+    "static/js/2.937769ed.chunk.js.LICENSE.txt": "/Clicky-Game/static/js/2.937769ed.chunk.js.LICENSE.txt",
+    "static/media/You Lose - Sound Effect - 2017.mp3": "/Clicky-Game/static/media/You Lose - Sound Effect - 2017.1765eddf.mp3",
+    "static/media/You Win (Voice) - Sound Effect [HD].mp3": "/Clicky-Game/static/media/You Win (Voice) - Sound Effect [HD].c7551b05.mp3",
+    "static/media/correct sound effect.mp3": "/Clicky-Game/static/media/correct sound effect.ecf83eac.mp3",
+    "static/media/Score.css": "/Clicky-Game/static/media/maxresdefault.7e7c97af.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a0ce3ec2.js",
+    "static/js/2.937769ed.chunk.js",
+    "static/css/main.5f4b3aa4.chunk.css",
+    "static/js/main.131024a3.chunk.js"
+  ]
+}
