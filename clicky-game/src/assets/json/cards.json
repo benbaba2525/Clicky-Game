@@ -3,7 +3,7 @@
       "id": 1,
       "count": 0,
           "name": "Ant Man",
-      "image": "../images/ant-man.jpg"
+      "image": "./images/ant-man.jpg"
     },
   
     {
