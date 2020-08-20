@@ -8,7 +8,7 @@ import Footer from "./Footer";
 import cards from "../assets/json/cards.json";
 import soundCorrect from '../assets/sounds/correct sound effect.mp3';
 import soundIncorrect from '../assets/sounds/You Lose - Sound Effect - 2017.mp3';
-import soundWin from '../assets/sounds/WIN sound effect no copyright.mp3';
+import soundWin from '../assets/sounds/You Win (Voice) - Sound Effect [HD].mp3';
 
 // CLASS: App
 class App extends Component{

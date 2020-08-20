@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Score.css";
 
-// PROPS: Navbar
+// PROPS: Score
 const Score = props => (
     
     <div className="banner text-center d-flex align-items-center justify-content-center">    
@@ -14,6 +14,7 @@ const Score = props => (
                 <h3>Top Score <span className="badge">{props.topScore}</span></h3>
             </button>
         </div>
+
     </div>
 
 
