@@ -2,15 +2,16 @@
     {
       "id": 1,
       "count": 0,
-      "name": "Ant Man",
-      "image": "./images/antman.jpg"
+      "name": "Black Widow",
+      "image": "./images/blk-widow.jpg"
+      
     },
   
     {
       "id": 2,
       "count": 0,
-      "name": "Black Widow",
-      "image": "./images/blk-widow.jpg"
+      "name": "Ant Man",
+      "image": "./images/antman.jpg"
     },
     {
       "id": 3,
